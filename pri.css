@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(pexels-ian-beckley-2440021.jpg);
+    background-size: 100%;
+    font-family: Karma, 'Times New Roman', Times, serif;
+}
+
+
+.Nav {
+    list-style-type: none;
+    height: 60px;
+    background: rgba(51, 51, 51, 0.7);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    color: #6ADBFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+li>a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li>a:hover {
+    color: #4effbe;
+    text-decoration: white solid underline;
+}
+
+label {
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.prim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(217, 217, 217, 0.4);
+    border: 1px white solid;
+    margin: auto;
+    padding: auto;
+    color: black;
+}
+
+div.printing {
+    background: linear-gradient(158.6deg, #FFFFFF 0%, rgba(255, 255, 255, 0.6) 6.81%, rgba(255, 255, 255, 0.2) 100.58%);
+
+    border: 1px solid #FFFFFF;
+    box-shadow: 8px 4px 50px 8px rgba(236, 236, 236, 0.25);
+    border-radius: 12px;
+    width: 550px;
+    height: 380px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    padding-top: 1rem;
+}
+
+.submit {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    background: rgba(217, 217, 217, 0.4);
+    border: 1px white solid;
+    color: white;
+
+}
+.submit:active{
+    background-color: black;
+}
+
+#output {
+    text-align: center;
+    font-weight: bold;
+
+}
